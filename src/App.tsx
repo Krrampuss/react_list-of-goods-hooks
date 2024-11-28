@@ -60,7 +60,7 @@ export const App = () => {
           className={cn('button', 'is-info', {
             'is-light': sortField !== SortType.ALPHABET,
           })}
-          onClick={() => setSortField(SortType.LENGTH)}
+          onClick={() => setSortField(SortType.ALPHABET)}
         >
           Sort alphabetically
         </button>
